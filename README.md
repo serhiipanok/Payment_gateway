@@ -1,1 +1,2 @@
-# Payment_gateway
+# payment_gateway
+Stripe, Paypal, coinpayments
