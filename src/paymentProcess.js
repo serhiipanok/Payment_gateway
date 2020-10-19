@@ -43,8 +43,8 @@ async function stripeProcess(req, res, next) {
       source: token,
     });
     const data = {
-      // company_uuid: user.company_uuid,
-      company_uuid: "be791a26-fa31-4c1f-a3b4-21693b2dd410",
+      company_uuid: user.company_uuid,
+      // company_uuid: "be791a26-fa31-4c1f-a3b4-21693b2dd410",
       method: "manual",
       amount
     }
